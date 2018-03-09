@@ -1,0 +1,62 @@
+<section class="project">
+  <div class="project-data">
+          <h3 ng-bind-html="curData['Title']"></h3>
+        <a class='inline-link' ng-if="curData['Webpage'] != undefined" href="{{curData['Webpage']['Link']}}" target="_blank">{{curData['Webpage']['Label']}}</a>
+    </div>
+    <p ng-bind-html="curData['About']"></p>
+    <hr>
+    <div class="proj-gallery {{curData['Key']}}">
+        <!--
+    <vjs-video-container vjs-ratio="16:8.8" >
+            <video id="my-video"   class="video-js vjs-default-skin" controls preload="auto" autoplay="true" loop="true" style="width: 100%;  height: auto;" poster="">
+                <source src="assets/images/work/localItalian/process.mp4" type='video/mp4'>
+                <source src="assets/images/work/localItalian/process.webm" type='video/webm'>
+                <source src="assets/images/work/localItalian/process.ogv" type='video/ogg'>
+-->
+        <!--                <source src="{{curData['Path']}}{{curData['Video']['webm']}}" type='video/webm'>-->
+        <!--
+                <p class="vjs-no-js">
+                  To view this video please enable JavaScript, and consider upgrading to a web browser that
+                  <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+-->
+        <!--
+              </video>
+        </vjs-video-container>
+-->
+        <div ng-if="curData['Key']=='localItalian'">
+            <h4 style="margin: 0;">App</h4>
+            <div class="proj-full">
+                <div class="img-wrap">
+                    <img src="assets/images/work/localItalian/appScreenshots.jpg" alt="">
+                </div>
+            </div>
+            <video id="example_video_1" class="video-js vjs-default-skin proj-full" autoplay="true" loop="true" preload="auto" vjs-ratio="16:9" vjs-video vjs-media="liProcessVid" style="width: 100%;  height: auto; position: relative;">
+</video>
+            <video id="example_video_1" class="video-js vjs-default-skin proj-full" autoplay="true" loop="true" preload="auto" vjs-ratio="16:9" vjs-video vjs-media="liDrinksVid" style="width: 100%;  height: auto; position: relative;">
+</video>
+        </div>
+ <video ng-if="curData['Key']=='kinetic'" id="example_video_1" class="video-js vjs-default-skin proj-full" autoplay="true" loop="true" preload="auto" vjs-ratio="4:3" controls vjs-video vjs-media="kineticType" style="width: 100%;  height: auto; position: relative;">
+</video>
+        
+<h4 ng-if="curData['Key']=='localItalian'" style="margin: 70px 0 30px;">Pocket Guide</h4>
+        <div ng-if="curData['Images'] != undefined" ng-repeat="image in curData['Images']" class="{{image.size}}">
+           <h4 ng-if="curData['Key']=='localItalian' && $index == 4" style="margin: 70px 0 30px;">Show</h4>
+            <div class="img-wrap">
+                <img src="{{curData['Path']}}{{image.img}}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="btn-holder">
+        <button class="view-more" ng-click="setData(curData.Nav['Prev'])"><i class="material-icons prev-proj">&#xE5CB;</i> &nbsp; {{allData[curData.Nav['Prev']]['Title']}}</button>
+        <button class="view-more " ng-click="setData(curData.Nav['Next'])">
+     
+<!--     <i class="material-icons">chevron_right</i>-->
+<!--     For IE9 or below-->
+      {{allData[curData.Nav['Next']]['Title']}} &nbsp; <i class="material-icons next-proj">&#xE5CC;</i>
+    </button>
+
+    </div>
+</section>

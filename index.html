@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+    <title>Lorraine's Portfolio</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+
+  <!-- If you'd like to support IE8 -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    </head>
+    <body>
+        <header>
+        <h1>
+            <a type="button" ui-sref="home"> Lorraine Nicoletta </a>
+        </h1>
+        <ul>
+            <li class="about-li">
+                <a ui-sref="work">Work</a>
+            </li>
+             <li class="about-li">
+                 <a ui-sref="about">About</a>
+            </li>
+        </ul>
+        </header>
+    <div class="container">
+        <ui-view class="view"></ui-view>
+    </div>
+
+   
+<footer>
+   <hr>
+    <p>Design and developed by <span class="highlight">Lorraine Nicoletta </span><span class="copyright">© 2008</span></p>
+</footer>
+    </body>
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/angular-ui-router.min.js.map"></script>
+</html>

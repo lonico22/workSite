@@ -1,0 +1,345 @@
+{
+    "About":{
+    "Content":"Hi, I'm a interactive designer from New York, currently living and working in Washington, DC. I like designing and coding things that gets stuffs done and exploring the world. I hail from New York and recieved a graphic design from the Maryland Institute College of Art (MICA) in Baltimore, MD. Feel free to conact me for work requests or just to have a chat.",
+    "Contact":"lorrainenicoletta@gmail.com"
+    },
+    "Footer":{
+        "Tag":"Design and developed by Lorraine Nicoletta",
+        "Copyright":"© 2008"
+    },
+    "Adjectives":"Lorraine,designer,front-end developer,explorer,interactive designer,foodie",
+    "InstaFeed": [
+        {
+            "aLink":"https://www.instagram.com/p/Bfe4tuklUBP/",
+            "imgSrc": "http://instagram.com/p/Bfe4tuklUBP/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/Bdd7-BFFcL8/",
+            "imgSrc": "http://instagram.com/p/Bdd7-BFFcL8/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/BbfqeValH2-/",
+            "imgSrc": "http://instagram.com/p/BbfqeValH2-/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/BbQltoEFdn2/",
+            "imgSrc": "http://instagram.com/p/BbQltoEFdn2/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/BUsGoB4liQg/",
+            "imgSrc": "http://instagram.com/p/BUsGoB4liQg/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/BLWxY2FgqjR/",
+            "imgSrc": "http://instagram.com/p/BLWxY2FgqjR/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/BQ4ICBoFbyk/",
+            "imgSrc": "http://instagram.com/p/BQ4ICBoFbyk/media/?size=l"
+        },
+        {
+            "aLink":"https://www.instagram.com/p/BLj91xAgODW/",
+            "imgSrc": "http://instagram.com/p/BLj91xAgODW/media/?size=l"
+        }
+    ],
+    "Work":{
+        
+        "bbqit":{
+            "icons":{
+                "Prev":"chevron_left",
+                "Next":"chevron_right"
+            },
+            "Nav":{
+                "Prev":"kinetic",
+                "Next":"localitalian"
+            },
+            "Key":"bbqit",
+            "ID":1,
+            "Path": "assets/images/work/bbqit/",
+            "Thumb": "assets/images/thumbs/bbq.jpg",
+             "Images":[
+                 {"img":"6.jpg",
+                 "size":"proj-one"}, 
+                 {"img":"1.jpg",
+                 "size":"proj-three"}, 
+                 {"img":"2.jpg",
+                 "size":"proj-full"},
+                 {"img":"4.jpg",
+                 "size":"proj-full"}, 
+                 {"img":"5.jpg",
+                 "size":"proj-full"}],
+            "Title": "BBQ IT",
+            "About": "Stemming from a desire to make cooking products appeal more to men, BBQ IT marinade set draws inspiration from rancher's branding their animals, and how for many men drinking and grilling go hand in hand. The set contains two sauces, a spice rub, and a set of coasters, all housed in a custom built wooden box."
+        },
+        "localItalian":{
+            "Nav":{
+                "Prev":"bbqit",
+                "Next":"barrel"
+            },
+            "Key":"localItalian",
+            "ID":2,
+            "Path": "assets/images/work/localItalian/",
+            "Thumb": "assets/images/thumbs/li.jpg",
+            
+                "Images":[ 
+                 {"img":"001.jpg",
+                 "size":"proj-one"}, 
+                 {"img":"003.jpg",
+                 "size":"proj-three"},
+                {"img":"005.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"002.jpg",
+                 "size":"proj-two"},
+                 {"img":"009.jpg",
+                 "size":"proj-full"}, 
+                 {"img":"007.jpg",
+                 "size":"proj-threeB"},  
+                 {"img":"006.jpg",
+                 "size":"proj-oneB"}, 
+                 {"img":"008.jpg",
+                 "size":"proj-full"}],
+            "Title": "The Local Italian",
+            "About": "Italian coffee culture is a complex and beautiful combination of ritual and reward. When experienced properly, it can change the way anyone approaches coffee. For many, ordering a coffee while in Italy can be very intimidating. We live in a culture with a Starbucks or cafe on practically every corner, and have come to expect that same branded experience when traveling abroad. The Local Italian was created as a resource to equip tourist traveling in Italy with all of the information needed to walk into a local Italian shop and confidently order a coffee or caffè (as Italians call it)."
+        },
+        "wantedCreativity":{
+            "Nav":{
+                "Prev":"localitalian",
+                "Next":"marks"
+            },
+            "Key":"wantedCreativity",
+            "ID":15,
+            "Path": "assets/images/work/wantedCreativity/",
+            "Thumb": "assets/images/work/wantedCreativity/thumb.jpg",
+             "Images":[
+                 {"img":"wantedshavings.jpg",
+                 "size":"proj-full"},
+                 {"img":"wanted.jpg",
+                 "size":"proj-full"}],
+            "Title": "Wanted Creativity",
+            "About": "Ad design for Fabrica, a communication research center, searching for creatives."
+        },
+        "marks":{
+            "Nav":{
+                "Prev":"wantedCreativity",
+                "Next":"nextwave"
+            },
+            "Key":"marks",
+            "ID":12,
+            "Path": "assets/images/work/marks/",
+            "Thumb": "assets/images/thumbs/marks.jpg",
+            "Images":[
+                 {"img":"bmoreMayor.png",
+                 "size":"proj-two"}, 
+                 {"img":"sotto.png",
+                 "size":"proj-two"}, 
+                 {"img":"gio.png",
+                 "size":"proj-two"}, 
+                 {"img":"dogood.png",
+                 "size":"proj-two"},
+                {"img":"bkwine.png",
+                 "size":"proj-two"}, 
+                 {"img":"localItalian.png",
+                 "size":"proj-two"}, 
+                 {"img":"cbd.png",
+                 "size":"proj-two"}, 
+                 {"img":"abakery.png",
+                 "size":"proj-two"}],
+            "Title": "Marks",
+            "About": "Assortment of logos and marks"
+        },
+        "nextwave":{
+            "Nav":{
+                "Prev":"marks",
+                "Next":"notokay"
+            },
+            "Key":"nextwave",
+            "ID":5,
+            "Path": "assets/images/work/nextwave/",
+            "Images":[
+                 {"img":"nextwave_1.jpg",
+                 "size":"proj-full"},
+                 {"img":"nextwave_2.jpg",
+                 "size":"proj-one"}, 
+                 {"img":"nextwave_3.jpg",
+                 "size":"proj-three"}, 
+                 {"img":"nextwave_4.jpg",
+                 "size":"proj-full"}, 
+                 {"img":"nextwave_5.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"nextwave_6.jpg",
+                 "size":"proj-two"}],
+            "Thumb": "assets/images/thumbs/nextwave.jpg",
+            "Title": "Next Wave Festival",
+            "About": "The Next Wave Festival, a yearly event put on by the Brooklyn Academy of Music, showcases a range of artist talks, films, music, and visual arts. With it's unique folding system this poster unfolds so the user learns about the events on a monthly basis. Once completely unfolded the inside offers an undulating graphic representing the rhythm and movement of the arts."
+        },
+        "notokay":{
+            "Nav":{
+                "Prev":"nextwave",
+                "Next":"tastebmore"
+            },
+            "Key":"notokay",
+            "ID":6,
+            "Path": "assets/images/work/notok/",
+            "Thumb": "assets/images/thumbs/notok.jpg",
+            "Images":[
+                 {"img":"1.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"2.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"3.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"4.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"5.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"6.jpg",
+                 "size":"proj-two"}],
+            "Title": "It's not okay to...",
+            "About": "“It's Not Okay To…” campaign was started by the Stadium School Youth Dreamers to promote good behavior and raise awareness to everyday issues. Working with the students a series of posters were created and later placed in the store fronts of local shops in Baltimore spreading their messages."
+        },
+        "tastebmore":{
+            "Nav":{
+                "Prev":"notokay",
+                "Next":"shelter"
+            },
+            "Key":"tastebmore",
+            "ID":7,
+            "Path": "assets/images/work/sn/",
+            "Thumb": "assets/images/thumbs/sn.jpg",
+            "Images":[
+                 {"img":"1.jpg",
+                 "size":"proj-one"},
+                 {"img":"2.jpg",
+                 "size":"proj-three"}, 
+                 {"img":"77.jpg",
+                 "size":"proj-oneThree"}, 
+                 {"img":"11.jpg",
+                 "size":"proj-threeThree"}, 
+                 {"img":"222.jpg",
+                 "size":"proj-threeTwo"}, 
+                 {"img":"5.jpg",
+                 "size":"proj-oneTwo"}, 
+                 {"img":"4.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"6.jpg",
+                 "size":"proj-two"}],
+            "Title": "Taste of Baltimore",
+            "About": "An aspiring district of Baltimore, Station North creates a fresh face for the city by bringing the arts, good eats, and multiple forms of entertainment to the table. To attract people to the area, a guide to Station North's eateries was created in collaboration with illustration students from MICA. This is a unique guide in which the entire book may be take apart so one only needs to take the page of the res just the specific restaurant page with them."
+        },
+        "shelter":{
+            "Webpage":{
+                "Link": "assets/images/work/shelterpro/web/root/index.html",
+                "Label": "Shelter Project site"
+        },
+            "Nav":{
+                "Prev":"tastebmore",
+                "Next":"bk"
+            },
+            "Key":"shelter",
+            "ID":8,
+            "Path": "assets/images/work/shelterpro/",
+            "Thumb": "assets/images/thumbs/shelterpro.jpg",
+            "Images":[
+                 {"img":"1.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"11.jpg",
+                 "size":"proj-two"},
+                 {"img":"1.png",
+                 "size":"proj-full"}, 
+                 {"img":"2.png",
+                 "size":"proj-full"}, 
+                 {"img":"3.png",
+                 "size":"proj-full"}],
+            "Title": "Shelter Project &<br>Mesh School",
+            "About": "Shelter Project has been a year long collaboration of about 20 students and a professor, who researched methodologies used in disaster relief to design and build a better transitional shelter. I joined the team to create their website, design boards, as well as help build the final prototype.<br><br>Mesh School is a schooling system based on joining multiple shelters together to create all the necessary rooms. Since the school is created from the shelters it can easily be assembled and disassembled in the case that the school needs to relocated. My responsibilities included helping conceptualize school, draw out plans and elevations, as well as create a logo, design boards, and diagrams."
+        },
+        "barrel":{
+            "Nav":{
+                "Prev":"shelter",
+                "Next":"bk"
+            },
+            "Key":"barrel",
+            "ID":3,
+            "Path": "assets/images/work/barrel/",
+            "Thumb": "assets/images/thumbs/barrel.jpg",
+             "Images":[
+                 {"img":"3.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"2.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"1.jpg",
+                 "size":"proj-two"}],
+            "Title": "Barrel Planter",
+            "About": "Designed for the urban gardener, Barrel Planter creates an efficient and ideal gardening space for those with minimal space. Housed in a barrel inspired construction, the bag insert is purchased pre-filled with fertilized soil and seeds. Designed with the mentality that a plant dies at the end of the season, the bag insert could be thrown into a composite to make fertilizer for the next season and the barrel construction could be rolled up and stored till next time."
+        },
+        "bk":{
+            "Nav":{
+                "Prev":"shelter",
+                "Next":"gio"
+            },
+            "Key":"bk",
+            "ID":9,
+            "Path": "assets/images/work/bk/",
+            "Thumb": "assets/images/thumbs/bk.jpg",
+            "Images":[
+                 {"img":"1.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"4.jpg",
+                 "size":"proj-two"}, 
+                 {"img":"6.jpg",
+                 "size":"proj-full"}, 
+                 {"img":"8.jpg",
+                 "size":"proj-three"},
+                 {"img":"3.jpg",
+                 "size":"proj-one"},
+                 {"img":"7.jpg",
+                 "size":"proj-twoTwoA"}, 
+                 {"img":"2.jpg",
+                 "size":"proj-twoTwoB"}],
+            "Title": "Brooklyn Winery",
+            "About": "A unique winery and wine bar located in Williamsburg, Brooklyn Winery's branding needed a style that fit its hip crowd, and eccentric space. The redesign includes a logo, packaging for one of their homemade wines, and bar menus."
+        },
+        "gio":{
+            "Nav":{
+                "Prev":"bk",
+                "Next":"kinetic"
+            },
+            "Key":"gio",
+            "ID":10,
+            "Path": "assets/images/work/gio/",
+            "Thumb": "assets/images/thumbs/gio.jpg",
+            "Images":[
+                 {"img":"1.jpg",
+                 "size":"proj-full"}, 
+                 {"img":"4.jpg",
+                 "size":"proj-one"}, 
+                 {"img":"3.jpg",
+                 "size":"proj-three"}, 
+                 {"img":"5.jpg",
+                 "size":"proj-full"}, 
+                 {"img":"6.jpg",
+                 "size":"proj-full"},
+                 {"img":"2.jpg",
+                 "size":"proj-full"}],
+            "Title": "Giovanni's",
+            "About": "This bread line needs packaging as sophisticated, clean, and crisp as its bread. Stepping away from the iconic green and red that symbolizes Italy, the cool, minty blue gives the line a homey, fresh vibe. Unique to the line, it's sliced Italian bread comes in a box rather than a bag, so the picky eaters that never want the ends can go directly for the middle."
+        },
+        "kinetic":{
+            "Nav":{
+                "Prev":"gio",
+                "Next":"bbqit"
+            },
+            "Key":"kinetic",
+            "ID":11,
+            "Video":{
+                "ogg":"kinetictype_DeadPoetsSociety.theora.ogv",
+                "mp4":"kinetictype_DeadPoetsSociety.mp4",
+                "webm":"kinetictype_DeadPoetsSociety.webm"
+            },
+            "Path": "assets/images/work/kinetic/",
+            "Thumb": "assets/images/thumbs/poet.jpg",
+            "Title": "Kinetic Type: Dead Poet Society",
+            "About": "Exploring type through motion."
+        }
+    }
+}

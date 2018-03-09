@@ -1,0 +1,18 @@
+<div class="work-about" ng-show="showWorkInfo">
+   hjs
+    <h3>{{work.Title}}</h3>
+    <p>{{work.About}}</p>
+</div>
+<div class="work-filters">
+    <button>Print</button>
+    <button>Marks</button>
+    <button>Digital</button>
+</div>
+<hr>
+<div class="work-thumbs">
+    <ul>
+        <li ng-repeat="work in workList">
+            <button type="button" ui-sref="project({ projName: work.Key})"><img src="{{work.Thumb}}" alt=""></button>
+        </li>
+    </ul>
+</div>
